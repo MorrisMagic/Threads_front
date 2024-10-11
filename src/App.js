@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Post from "./components/Post";
 import OnePost from "./pages/OnePost";
+import Person from "./pages/Person";
 
 function App() {
   const location = useLocation(); // Get current route
@@ -29,6 +30,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/post" element={<OnePost />} />
+          <Route path="/person" element={<Person />} />
         </Routes>
       </div>
     </div>
